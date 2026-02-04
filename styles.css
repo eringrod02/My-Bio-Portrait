@@ -1,0 +1,219 @@
+body{
+    background-image: url(pinboard.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 95%;
+}
+.whole-card{
+    padding-left: 43%;
+    padding-right: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.name-card {
+    position: relative;
+    width: 200px;
+    background: rgb(93, 202, 93);
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(11, 96, 10, 0.654);
+    cursor: pointer;
+    overflow: hidden;
+}
+.name-card:hover{
+    transform: translateY(10px);
+}
+
+.card-front{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-back{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    background: rgb(30, 62, 30);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out;
+
+}
+
+.name-card:hover .card-back{
+    transform: translateY(0);
+}
+
+.bluepostit{
+    position: absolute;
+    width: 33%;
+    left: 65%;
+    bottom: 50%;
+}
+.Bwords{
+    position: absolute;
+    font-size: 12px;
+    width: 10%;
+    right: 16%;
+    top: 22%;
+    text-align: center;
+}
+.greenpin{
+    position: absolute;
+    transform: scaleX(-1);
+    width: 10%;
+    left: 72%;
+    bottom: 79%;
+} 
+
+.greenpostit{
+    position: absolute;
+    width: 33%;
+    left: 10%;
+    top: 2%;
+}
+.Gwords{
+    position: absolute;
+    font-size: 12px;
+    width: 10%;
+    left: 19.5%;
+    top: 15%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bluepin{
+    position: absolute;
+    width: 10%;
+    transform: scaleX(-1);
+    left: 17%;
+    top: 4%;
+}
+
+.whitebox{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    left: 50%;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(20, 20, 21, 0.72);
+}
+.orangepin{
+    position: absolute;
+    width: 10%;
+    transform: scaleX(-1);
+    left: 51%;
+    top: 23%;
+}
+
+.whitebox2{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    left: 14%;
+    bottom: 10%;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(20, 20, 21, 0.72);
+}
+.redpin{
+    position: absolute;
+    width: 10%;
+    left: 19%;
+    bottom: 38%;
+}
+
+.pinkpostit{
+    position: absolute;
+    width: 33%;
+    left: 27%;
+    bottom: 5%;
+}
+.Pwords{
+    position: absolute;
+    font-size: 12px;
+    width: 10%;
+    left: 36.6%;
+    bottom: 30%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.yellowpin{
+    position: absolute;
+    width: 10%;
+    transform: scaleX(-1);
+    left: 34%;
+    bottom: 34%;
+}
+.photo{
+    position: absolute;
+    width: 10%;
+    height: 45%;
+    right: 15%;
+    bottom: 4%;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(20, 20, 21, 0.72); 
+}
+.bluepin2{
+   position: absolute;
+    width: 10%; 
+    right: 13%;
+    bottom: 45%;
+}
+
+.yellowpostit{
+    position: absolute;
+    width: 33%;
+    right: 20%;
+   top: 65%;
+}
+.orangepin2{
+  position: absolute;
+  width: 10%;  
+  right: 31%; 
+  bottom: 18%;
+}
+.Ywords{
+position: absolute;
+    font-size: 12px;
+    width: 10%;
+    right: 33.5%;
+    bottom: 14.5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+.orangepostit{
+    position: absolute;
+    width: 33%;
+    left: 25%;
+    top: 15%;
+}
+.greenpin2{
+    position: absolute;
+    width: 10%;
+    left: 37%;
+    top: 18%;
+}
+.Owords{
+    position: absolute;
+    font-size: 12px;
+    width: 10%;
+    left: 34.5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
